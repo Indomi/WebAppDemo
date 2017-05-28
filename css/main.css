@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+}
+#header-nav{
+    float: right;
+}
+.navbar{
+    border-radius: 0!important;
+}
+#text-city{
+    width:40%;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:30%;
+}
+#info{
+    width: 40%;
+    margin:10% auto;
+    display: none;
+}
+@media screen and (max-width: 768px){
+    #text-city{
+        width:80%;
+        position: static;
+        margin:40% auto;
+    }
+}
